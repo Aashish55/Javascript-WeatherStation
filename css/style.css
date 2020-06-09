@@ -136,6 +136,7 @@ input:checked + .slider:after{
 }
 .temperatureMinMax{
     display: flex;
+    margin-bottom: 1rem;
 }
 .temperatureMinMax p{
     font-size: 1.3rem;
