@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/sun.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header class="navBar">
+        <div>
+            <input class="searchBox" type="text" placeholder="Search">
+        </div>
+    </header>
+    <div class="mainSection">
+        <div class="address">address</div>
+        <div class="temperature">
+            <img class="icon" src="/img/sun.png" alt="icon">
+            <h1>23&#730;</h1>
+            <div class="units">
+                <label class="switch"><input type="checkbox" id="togBtn">
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </div>
+        <div class="description">description</div>
+        <div class="temperatureMinMax">
+            <p class="minTemp"> Min Temperature &darr; </p>
+            <p class="maxTemp"> Max Temperature &uarr; </p>
+        </div>
+        <div class="temperatureMinMax">
+            <p class="pressure"> Pressure </p>
+            <p class="humidity"> Humidity </p>
+        </div>
+    </div>
+
+    <div class="flexbox">
+        <h1>Upcoming 5 days</h1>
+        <div class="day5">
+            <div class="cards">
+                <p class="date1 date">
+                    Today
+                </p>
+
+                <img class="icon1" src="/img/sun.png" alt="icon">
+
+                <h2 class="Temperature1 temp">
+                    23&#730;
+                </h2>
+                <p class="description1 desc"> description</p>
+            </div>
+            <div class="cards">
+                <p class="date2 date">
+                    Tuesday
+                </p>
+
+                <img class="icon2" src="/img/sun.png" alt="icon">
+
+                <h2 class="Temperature2 temp">
+                    23&#730;
+                </h2>
+                <p class="description2 desc"> description</p>
+            </div>
+            <div class="cards">
+                <p class="date3 date">
+                    Wednesday
+                </p>
+
+                <img class="icon3" src="/img/sun.png" alt="icon">
+
+                <h2 class="Temperature3 temp">
+                    23&#730;
+                </h2>
+                <p class="description3 desc"> description</p>
+            </div>
+            <div class="cards">
+                <p class="date4 date">
+                    Thursday
+                </p>
+
+                <img class="icon4" src="/img/sun.png" alt="icon">
+
+                <h2 class="Temperature4 temp">
+                    23&#730;
+                </h2>
+                <p class="description4 desc"> description</p>
+            </div>
+            <div class="cards">
+                <p class="date5 date">
+                    Friday
+                </p>
+
+                <img class="icon5" src="/img/sun.png" alt="icon">
+
+                <h2 class="Temperature5 temp">
+                    23&#730;
+                </h2>
+                <p class="description5 desc"> description</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="details">
+        <h1>Day Details</h1>
+        <div class="detailsBox">
+
+            <div class="flexes">
+
+                <div class="images">
+                    <img class="icon7" src="/img/sun1.png" alt="">
+                    <img class="icon7" src="/img/sea.png" alt="">
+                </div>
+                <div class="textArea">
+                    <h3>Sunrise</h3>
+                    <p class="sunriseTime">Sunrise time</p>
+                    <h3>Sunset</h3>
+                    <p class="sunsetTime">sunset time</p>
+                </div>
+            </div>
+
+            <div class="flexes">
+                <div class="column">
+                    <div class="iconText">
+                        <img class="icon8" src="/img/clouds.png" alt="">
+                        <h3>Clouds</h3>
+                    </div>
+
+                    <div class="cloudPercentage cloud">
+                        65%
+                    </div>
+
+                    <p class="cloud-details">Clouds will be in most part of the sky.</p>
+                </div>
+            </div>
+
+            <div class="flexes">
+                <div class="column">
+                    <div class="iconText">
+                        <img class="icon8" src="/img/wind.png" alt="">
+                        <h3>Winds</h3>
+                    </div>
+
+                    <div class="windSpeed">
+                        1.25m/s
+                    </div>
+                    <div class="windDegree">
+                        214&#730;
+                    </div>
+
+                    <p class="cloud-details">The velocity of wind will be 1.25m/s with an angle of 214&#730; to the North.</p>
+                </div>
+            </div>
+            <div class="flexes">
+                <div class="column">
+                    <div class="iconText">
+                        <img class="icon8" src="/img/rain.png" alt="">
+                        <h3>Rain</h3>
+                    </div>
+
+                    <div class="rain">
+                        3.14mm
+                    </div>
+
+                    <p class="cloud-details">Rain Volume for the last 3 hours is 3.14 mm.</p>
+                </div>
+            </div>
+            <div class="flexes">
+                <div class="column">
+                    <div class="iconText">
+                        <img class="icon8" src="/img/hot.png" alt="">
+                        <h3>Temperature</h3>
+                    </div>
+                    <h4>Avg. Maximum Temperature</h4>
+                   <div class="avgMaxTemp">28.33&#730;</div>
+                   <h4>Avg. Minimum Temperature</h4>
+                   <div class="avgMinTemp">21.55&#730;</div>
+                </div>
+            </div>
+
+            
+
+            <div class="flexes">
+                <div class="column">
+                    <h3>City Details</h3>
+                    <h4>Coordinates :</h4>
+                    <p class="long para">longitude: 24.43</p>
+                    <p class="lat para">latitude: 29.76</p>
+                    <h4>Population :</h4>
+                    <p class="population para">25000</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer class="footerDesign">
+        <div class="footerText">
+            <p> 2020 &copy; Aashish Jangam. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
