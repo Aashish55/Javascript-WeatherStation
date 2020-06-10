@@ -160,7 +160,7 @@ function getWeather(e) {
             address.innerHTML = data.city.name
             icon.src = getIcon(data.list[0].weather[0].main)
 
-            
+
             if (units == 'metric') {
                 mainTemp.innerHTML = `${Math.floor(data.list[0].main.temp)}&#730;`
                 minTemp.innerHTML = `Min Temperature &darr; ${data.list[0].main.temp_min}&#730;`
@@ -227,7 +227,7 @@ function getWeather(e) {
         }
     ).catch(
         (err) => {
-            console.log(err)
+            console.log("Weather data not found")
         }
     )
     searchBox.value = ''
