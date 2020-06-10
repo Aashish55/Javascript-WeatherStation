@@ -19,6 +19,7 @@ body{
     height: 6rem;
     width: 100%;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.171);
+    z-index: 10;
     
     display: flex;
     align-items: center;
