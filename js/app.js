@@ -140,8 +140,11 @@ function getWeather(e) {
 
     if (unit.checked == false) {
         units = 'metric'
+        
+
     } else {
         units = 'imperial'
+        
     }
 
     fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=f4846e0c6ff5ec86979e8ae140d91b73&units=${units}`).then(
@@ -230,6 +233,5 @@ function getWeather(e) {
             console.log("Weather data not found")
         }
     )
-    searchBox.value = ''
     e.preventDefault()
 }

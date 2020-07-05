@@ -21,7 +21,7 @@ html{
     }
 }
 body{
-    background-image: linear-gradient(to right bottom, #114357 ,#F29492);
+    background-image: linear-gradient(to right bottom ,#13547a, #80d0c7 );
     background-position: fixed;
     font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
