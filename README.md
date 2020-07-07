@@ -8,3 +8,5 @@ Javascript Weather App with openweathermap api.
 <img src="img/Screenshot2.png" width='800'>
 <br>
 <img src="img/Screenshot3.png" width='800'>
+
+bugs removed
