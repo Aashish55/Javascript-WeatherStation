@@ -1,7 +1,7 @@
 # Javascript-WeatherApp
 Javascript Weather App with openweathermap api.
 
-<h3>Weather app using CSS3 and Javascript.</h3>
+<h3>Weather app using fetch.</h3>
 <br><br>
 <img src="img/Screenshot1.png" width='800'>
 <br>
